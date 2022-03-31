@@ -1,11 +1,12 @@
 package TextAdventure;
+import java.util.HashMap;
 
 public class Main {
+	HashMap<String, Room> roomList = new HashMap<String,Room>();
+	HashMap<String, Item> itemList = new HashMap<String,Item>();
 
 	public static void main(String[] args) {
-		System.out.println("Hello World23");
-		System.out.println("hh");
-		System.out.println("New Test");
+		
 	}
 
 }
